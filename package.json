@@ -1,13 +1,13 @@
 {
-  "name": "parcel-starter",
+  "name": "js-starter",
   "version": "1.0.0",
   "main": "src/index.html",
-  "license": "MIT",
+  "license": "",
   "scripts": {
     "start": "parcel src/index.html -p 3000 --open",
     "build:parcel": "parcel build src/index.html",
     "build": "npm run clean && npm run build:parcel",
-    "clean": "rm -rf dist/*"
+    "clean": "rimraf dist/*"
   },
   "dependencies": {},
   "devDependencies": {
@@ -20,6 +20,7 @@
     "parcel-plugin-imagemin": "^3.0.0",
     "parcel-plugin-svg-sprite": "^1.4.1",
     "prettier": "2.1.2",
+    "rimraf": "^3.0.2",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended-scss": "^4.2.0",

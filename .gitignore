@@ -4,3 +4,4 @@ dist
 !/.babelrc
 yarn-error.log
 yarn.lock
+.cache
